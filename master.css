@@ -504,13 +504,28 @@ h1 {
     display: none;
 }
 
+h2 {
+    color: white;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: blanchedalmond 0px 0px 10px;
+}
+
+#section_title {
+    margin-left: 2.5%;
+    font-weight: bold;
+    clear: both;
+    color: black;
+    font-size: 1.5em;
+}
+
 body {
     background-color: black;
 }
 
 #main_header {
     background-color: black;
-    padding: 2% 0;
+    padding: 2.5% 0;
 }
 
 #main_figure {
@@ -520,14 +535,14 @@ body {
 }
 
 #logo {
-    width: 50%;
+    width: 35%;
 }
 
 nav {
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
     background-color: rgb(48, 48, 48);
-    box-shadow: white 0px 0px 5px;
+    box-shadow: white 0px 0px 2px;
 }
 
 ul {
@@ -546,4 +561,95 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.1em;
     text-shadow: blanchedalmond 0px 0px 10px;
+}
+
+a:hover {
+    color: gold;
+}
+
+section {
+    margin: 0px auto;
+    width: 70%;
+    margin-top: 1%;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+img {
+    width: 20%;
+}
+
+#main_footer {
+    display: inline-block;
+    width: 100%;
+    margin-top: 1%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    padding: 2% 0%;
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+}
+
+#footer_section {
+    margin: 0px auto;
+    width: 40%;
+    margin-top: 1%;
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+}
+
+footer section figure {
+    margin-left: 3%;
+    display: inline;
+}
+
+footer section figure img {
+    width: 5%;
+}
+
+figure a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    text-shadow: blanchedalmond 0px 0px 10px;
+    margin-left: 0.5%;
+    margin-right: 0%;
+}
+
+article {
+    background: linear-gradient(to top, white 80%, rgb(48, 48, 48) 20%);
+    margin: 2% 0%;
+    margin-left: 2.4%;
+    width: 30%;
+    height: 400px;
+    border: 1px solid rgb(48, 48, 48);
+    float: left;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+article header {
+    text-align: center;
+}
+
+article footer {
+    background-color: white;
+}
+
+article figure {
+    margin-top: 3%;
+}
+
+article figure img {
+    width: 100%;
+    box-shadow: white 0px 0px 5px;
 }
