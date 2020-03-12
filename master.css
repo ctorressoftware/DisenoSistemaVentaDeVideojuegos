@@ -586,6 +586,10 @@ img {
     width: 20%;
 }
 
+section article figure img {
+    height: 240px;
+}
+
 #main_footer {
     display: inline-block;
     width: 100%;
@@ -630,11 +634,13 @@ article {
     margin: 2% 0%;
     margin-left: 2.4%;
     width: 30%;
-    height: 400px;
+    height: 420px;
     border: 1px solid rgb(48, 48, 48);
     float: left;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    padding-bottom: 10px;
+    overflow-x: auto;
 }
 
 article header {
@@ -652,4 +658,22 @@ article figure {
 article figure img {
     width: 100%;
     box-shadow: white 0px 0px 5px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2% 5%;
+    font-size: 1em;
+    text-align: justify;
+}
+
+#btnComprar {
+    text-align: center;
+}
+
+button {
+    color: white;
+    height: 30px;
+    width: 40%;
+    background-color: rgb(48, 48, 48);
 }
